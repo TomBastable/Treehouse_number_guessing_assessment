@@ -27,10 +27,11 @@ HIGH_SCORE_MESSAGE = "The current high score is: {} - try and beat it!"
 NEW_HIGH_SCORE_MESSAGE = "** You have a new high score of {}! **"
 
 #The messages used for playing again
-PLAY_AGAIN_MESSAGE = "Would you like to play again? (Y/N):   "
-PLAY_AGAIN_ERROR_MESSAGE = "Please enter Y or N"
 YES = "Y"
 NO = "N"
+PLAY_AGAIN_MESSAGE = f"Would you like to play again? ({YES}/{NO}):   "
+PLAY_AGAIN_ERROR_MESSAGE = f"Please enter {YES} or {NO}"
+
 
 #The file used to store the high score
 HIGH_SCORE_FILE = "high_score.txt"
